@@ -1,0 +1,2444 @@
+[
+    {
+        "id": "223ef46ec89a4758",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a79753d834ac830c",
+        "type": "group",
+        "z": "223ef46ec89a4758",
+        "name": "Training",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true,
+            "fill": "#bfdbef",
+            "color": "#000000"
+        },
+        "nodes": [
+            "8bb3481b10afd894",
+            "e8ef47fd0d9b3805",
+            "6df008c6813db70b",
+            "4f12fc43e734ef3b",
+            "1a4d97854d45187a",
+            "9da0a9283969ee6e",
+            "b517344536ba4998",
+            "10f3e237c9da4327",
+            "09c1684808abb8a2",
+            "2ec43bd6f588e286",
+            "05345b44e301af31",
+            "d1b1d590d14698ea",
+            "6b586a791cc3859a",
+            "5e8301e36ecd32a0",
+            "13b72bbad7589e6f",
+            "495744dd0ae79d5c",
+            "a6fd79309dc061c3",
+            "b159230d95adffcc",
+            "9aa3ac7c7c2f2502",
+            "3efc9cca477e3f4d",
+            "da3c17e66cc63d90",
+            "f3034eb37c2d339d",
+            "ccdb412445c39211",
+            "1dc90a36e1be8eeb",
+            "5d302acc0f44d2c0",
+            "8caa0d71bafad061"
+        ],
+        "x": 674,
+        "y": 19,
+        "w": 832,
+        "h": 702
+    },
+    {
+        "id": "5f21119cbb21d8f9",
+        "type": "group",
+        "z": "223ef46ec89a4758",
+        "name": "df.show()",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "41a5d3c90ef82bc9",
+            "2971fa7ae8645ab0",
+            "266ee92caa913269",
+            "a159a23a015635fd"
+        ],
+        "x": 1534,
+        "y": 19,
+        "w": 552,
+        "h": 202
+    },
+    {
+        "id": "c92e7728f3b0d270",
+        "type": "group",
+        "z": "223ef46ec89a4758",
+        "name": "Flow",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true,
+            "fill": "#ffdf7f",
+            "color": "#000000"
+        },
+        "nodes": [
+            "da20ab396fdfa4ed",
+            "8b316ab401bd0c71",
+            "504efc6467594d17",
+            "9c3241fbb1327370",
+            "b2f745687b2eb84a",
+            "7bed1a5a51e42fb2",
+            "0d464d0774a28311",
+            "e60f50dbbcf04382",
+            "69814aafed153f79",
+            "13346ab2d045ab35",
+            "8b85f508300e6c7e",
+            "8b3a81d1997ec731",
+            "39d909e55422043e",
+            "2687806013324ade",
+            "e5ac851f61007781",
+            "69991ce5a96f92ad",
+            "b0c8cab5af6c7a70"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 632,
+        "h": 702,
+        "info": "# Flow"
+    },
+    {
+        "id": "74eba2e6a2ab8653",
+        "type": "group",
+        "z": "223ef46ec89a4758",
+        "name": "Testing & Visualisation",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true,
+            "color": "#000000",
+            "fill": "#addb7b",
+            "fill-opacity": "0.78"
+        },
+        "nodes": [
+            "93635920910f53cf",
+            "f18900076add351b",
+            "21b805244fd02cdf",
+            "7e10de5fb14eb835",
+            "8b1f9b84901cdf77",
+            "8c9eadcc132314bc",
+            "05ddd4663a28295f",
+            "bb86154631510c18",
+            "0d69e71e548d6161",
+            "bffbf535e3793b44",
+            "99985b29559bcf2f",
+            "395a849d7cad35ba",
+            "98397ea16d58b335",
+            "467e2142bb96f8b1",
+            "f6dbd508803ebe4b",
+            "49405400a6d005a9",
+            "0ca6f0f3dc7942d4",
+            "b95cc1494cfb469b",
+            "d93ab90421bf18dc",
+            "6033babd621c9657",
+            "a397cb537b452e88",
+            "ed319f80971e0c59",
+            "60df1c2a54104b42",
+            "25c27f0f42abe557",
+            "4cdc77074db31ee3",
+            "dc17a049370a2938",
+            "17fdcc3d24808f21",
+            "fbc5c15c9adfc95b",
+            "016c86face8054de",
+            "75cfdd980876610c",
+            "c9638f6b58dd65f9",
+            "e3f5d481240f1aa5",
+            "d9af14d1c1d27d02",
+            "bdc7cf9d7def2261",
+            "fefda5913af85356",
+            "25d85a6782b6bdb0",
+            "5088c9c60622b404",
+            "802e3816bbb0a5b6",
+            "d098ab50b534177b",
+            "0a87cc4075fecd8f",
+            "e5706b0437f5349c",
+            "66a48bb8c5730554",
+            "d6575ad15c3b05a7",
+            "9756b0c74d8b3c41",
+            "85a2d97055eb3dd2",
+            "a5fab0ab9af2a6a3",
+            "3de1d454769c514f",
+            "010a46e39979bc27",
+            "094e79cc8158cd67"
+        ],
+        "x": -6,
+        "y": 739,
+        "w": 1912,
+        "h": 802
+    },
+    {
+        "id": "da20ab396fdfa4ed",
+        "type": "serial in",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "COM101",
+        "serial": "2d59889686e0235d",
+        "x": 120,
+        "y": 300,
+        "wires": [
+            [
+                "8b316ab401bd0c71",
+                "0d464d0774a28311",
+                "b2f745687b2eb84a",
+                "13346ab2d045ab35",
+                "b0c8cab5af6c7a70"
+            ]
+        ]
+    },
+    {
+        "id": "8b316ab401bd0c71",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "function",
+        "func": "var output = msg.payload.split(\",\");\n\nvar a = parseFloat(output[0]);\n\nvar msg = {payload : a};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 60,
+        "wires": [
+            [
+                "504efc6467594d17",
+                "9c3241fbb1327370"
+            ]
+        ]
+    },
+    {
+        "id": "504efc6467594d17",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9c3241fbb1327370",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 1,
+        "width": 8,
+        "height": 7,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 530,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b2f745687b2eb84a",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "function",
+        "func": "var output = msg.payload.split(\",\");\n\nvar a = parseFloat(output[3]);\n\nvar msg = {payload : a};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 320,
+        "wires": [
+            [
+                "7bed1a5a51e42fb2",
+                "39d909e55422043e"
+            ]
+        ]
+    },
+    {
+        "id": "7bed1a5a51e42fb2",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "0d464d0774a28311",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "function",
+        "func": "var output = msg.payload.split(\",\");\n\nvar a = parseFloat(output[1]);\n\nvar msg = {payload : a};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "e60f50dbbcf04382",
+                "69814aafed153f79"
+            ]
+        ]
+    },
+    {
+        "id": "e60f50dbbcf04382",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "69814aafed153f79",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 2,
+        "width": 8,
+        "height": 7,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "13346ab2d045ab35",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "function",
+        "func": "var output = msg.payload.split(\",\");\n\nvar a = parseFloat(output[2]);\n\nvar msg = {payload : a};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 480,
+        "wires": [
+            [
+                "8b85f508300e6c7e",
+                "8b3a81d1997ec731"
+            ]
+        ]
+    },
+    {
+        "id": "8b85f508300e6c7e",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8b3a81d1997ec731",
+        "type": "ui_chart",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 4,
+        "width": 6,
+        "height": 7,
+        "label": "Outlook",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 520,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39d909e55422043e",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 3,
+        "width": 8,
+        "height": 7,
+        "gtype": "gage",
+        "title": "Wind Speed",
+        "label": "km/h",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 550,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8bb3481b10afd894",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 770,
+        "y": 100,
+        "wires": [
+            [
+                "e8ef47fd0d9b3805"
+            ]
+        ]
+    },
+    {
+        "id": "e8ef47fd0d9b3805",
+        "type": "source",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "item_analysis": "",
+        "project": "project/664e6b973f34be300ed5a1b7",
+        "remote": "",
+        "name": "Source",
+        "reify": true,
+        "synthetic": "",
+        "source_parser": "",
+        "file": "C:\\Users\\DR2\\Desktop\\archive\\data.csv",
+        "disable_datetime": false,
+        "data": "",
+        "term_analysis": "",
+        "x": 780,
+        "y": 180,
+        "wires": [
+            [
+                "1a4d97854d45187a",
+                "3efc9cca477e3f4d"
+            ]
+        ]
+    },
+    {
+        "id": "6df008c6813db70b",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": false,
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "4f12fc43e734ef3b"
+            ]
+        ],
+        "inputLabels": [
+            "logisticregression"
+        ]
+    },
+    {
+        "id": "4f12fc43e734ef3b",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "1a4d97854d45187a",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "2687806013324ade",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "function 6",
+        "func": "// Assuming 'msg.payload' contains comma-separated values for temperature, humidity, and wind speed\n\nvar output = msg.payload.split(\",\");\nvar temperature = parseFloat(output[0]);\nvar humidity = parseFloat(output[1]);\nvar windSpeed = parseFloat(output[3]);\n\nvar temperatureCategory;\nvar humidityCategory;\nvar windSpeedCategory;\n\n// Temperature classification\nif (temperature >= 30) {\n  temperatureCategory = \"Hot\";\n} else if (temperature >= 20) {\n  temperatureCategory = \"Cool\";\n} else {\n  temperatureCategory = \"Mild\";\n}\n\n// Humidity classification\nif (humidity >= 70) {\n  humidityCategory = \"High\";\n} else if (humidity >= 50) {\n  humidityCategory = \"Normal\";\n} else {\n  humidityCategory = \"Low\";\n}\n\n// Wind speed classification\nif (windSpeed >= 20) {\n  windSpeedCategory = \"t\";\n} else {\n  windSpeedCategory = \"f\";\n}\n\nvar newMsg = {\n    \"input-data\": {\n      \"Outlook\": \"Rainny\",\n      \"Temp\": temperatureCategory,\n      \"Humidity\": humidityCategory,\n      \"Windy\": windSpeedCategory\n  },\n  \"BIGML_USERNAME\": \"dr2\",\n  \"BIGML_API_KEY\": \"1c660354c5ec8d12389d7337410259804f6a2a57\"\n};\nglobal.set(\"msg\", newMsg);\n\nvar message = {\n  payload :{\n    \"input-data\": {\n      \"Outlook\": \"Rainny\",\n      \"Temp\": temperatureCategory,\n      \"Humidity\": humidityCategory,\n      \"Windy\": windSpeedCategory\n  },\n  \"BIGML_USERNAME\": \"dr2\",\n  \"BIGML_API_KEY\": \"1c660354c5ec8d12389d7337410259804f6a2a57\"\n  \n  }\n};\n\nreturn message;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 680,
+        "wires": [
+            [
+                "e5ac851f61007781"
+            ]
+        ]
+    },
+    {
+        "id": "e5ac851f61007781",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.data",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "93635920910f53cf",
+        "type": "find",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Find resources",
+        "resource_type": "logisticregression",
+        "resource_name": "",
+        "tag": "",
+        "limit": 1,
+        "sort_field": "",
+        "order": "asc",
+        "reify": false,
+        "x": 1140,
+        "y": 900,
+        "wires": [
+            [
+                "25d85a6782b6bdb0"
+            ]
+        ],
+        "outputLabels": [
+            "model"
+        ]
+    },
+    {
+        "id": "f18900076add351b",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Overcast\",\"Temp\":\"High\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 1030,
+        "y": 820,
+        "wires": [
+            [
+                "93635920910f53cf",
+                "bdc7cf9d7def2261"
+            ]
+        ]
+    },
+    {
+        "id": "21b805244fd02cdf",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": true,
+        "x": 1490,
+        "y": 900,
+        "wires": [
+            [
+                "7e10de5fb14eb835",
+                "8b1f9b84901cdf77"
+            ]
+        ],
+        "inputLabels": [
+            "prediction"
+        ]
+    },
+    {
+        "id": "7e10de5fb14eb835",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1680,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "9da0a9283969ee6e",
+        "type": "comment",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "Model Training",
+        "info": "",
+        "x": 780,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "69991ce5a96f92ad",
+        "type": "comment",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "Virtual Serial",
+        "info": "",
+        "x": 110,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8b1f9b84901cdf77",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "function 7",
+        "func": "var msgg = msg.payload.result.prediction[\"000004\"];\nvar a = parseFloat(msg.payload.result.probability) * 100;\nvar b = a.toFixed(3);\n\n// Créer un message pour la première valeur (prediction)\nvar msgPrediction = {\n    payload: msgg\n};\n\n// Créer un message pour la deuxième valeur (vote_count)\nvar msgVoteCount = {\n    payload: b\n};\n\n// Envoyer les deux messages séparément\nreturn [msgPrediction, msgVoteCount];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 980,
+        "wires": [
+            [
+                "bb86154631510c18"
+            ],
+            [
+                "05ddd4663a28295f",
+                "8c9eadcc132314bc"
+            ]
+        ]
+    },
+    {
+        "id": "8c9eadcc132314bc",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1360,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "05ddd4663a28295f",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 11,
+        "width": 8,
+        "height": 8,
+        "gtype": "donut",
+        "title": "Prediction",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1600,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "bb86154631510c18",
+        "type": "ui_text",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "group": "131c8d978dfdba8c",
+        "order": 7,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Good Day To Play Tennis [L.Regression]",
+        "format": "{{value}}",
+        "layout": "col-center",
+        "x": 1720,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "0d69e71e548d6161",
+        "type": "ui_button",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 15,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Test LR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Overcast\",\"Temp\":\"High\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 1220,
+        "y": 820,
+        "wires": [
+            [
+                "5088c9c60622b404"
+            ]
+        ]
+    },
+    {
+        "id": "b517344536ba4998",
+        "type": "logistic-regression",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "missing_numerics": true,
+        "objective_field": "",
+        "default_numeric_value": "none",
+        "range": 0,
+        "normalize": false,
+        "balance_fields": true,
+        "replacement": false,
+        "tags": "",
+        "compute_status": false,
+        "eps": 0.0001,
+        "optimize": false,
+        "name": "logisticregression",
+        "reify": false,
+        "seed": "",
+        "excluded_fields": "",
+        "field_codings": "",
+        "balance_objective": true,
+        "number_of_model_candidates": 128,
+        "fields": "",
+        "category": 0,
+        "bias": true,
+        "webhook": "",
+        "max_training_time": 1800,
+        "objective_weights": "",
+        "out_of_bag": false,
+        "c": 1,
+        "description": "",
+        "sample_rate": 1,
+        "input_fields": "",
+        "x": 790,
+        "y": 400,
+        "wires": [
+            [
+                "6df008c6813db70b"
+            ]
+        ]
+    },
+    {
+        "id": "41a5d3c90ef82bc9",
+        "type": "table-viewer",
+        "z": "223ef46ec89a4758",
+        "g": "5f21119cbb21d8f9",
+        "name": "",
+        "property": "payload",
+        "fieldType": "msg",
+        "width": "330",
+        "height": "500",
+        "rows": "58",
+        "active": true,
+        "outputs": 0,
+        "x": 1670,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2971fa7ae8645ab0",
+        "type": "csv",
+        "z": "223ef46ec89a4758",
+        "g": "5f21119cbb21d8f9",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 2010,
+        "y": 60,
+        "wires": [
+            [
+                "41a5d3c90ef82bc9"
+            ]
+        ]
+    },
+    {
+        "id": "266ee92caa913269",
+        "type": "file in",
+        "z": "223ef46ec89a4758",
+        "g": "5f21119cbb21d8f9",
+        "name": "Outlook",
+        "filename": "C:\\Users\\DR2\\Desktop\\archive_3\\outlook.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1800,
+        "y": 60,
+        "wires": [
+            [
+                "2971fa7ae8645ab0"
+            ]
+        ]
+    },
+    {
+        "id": "a159a23a015635fd",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "5f21119cbb21d8f9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1630,
+        "y": 60,
+        "wires": [
+            [
+                "266ee92caa913269"
+            ]
+        ]
+    },
+    {
+        "id": "bffbf535e3793b44",
+        "type": "comment",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Model Testing L.Regression",
+        "info": "",
+        "x": 1020,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "10f3e237c9da4327",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": false,
+        "x": 990,
+        "y": 540,
+        "wires": [
+            [
+                "2ec43bd6f588e286"
+            ]
+        ],
+        "inputLabels": [
+            "model"
+        ]
+    },
+    {
+        "id": "09c1684808abb8a2",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": false,
+        "x": 1190,
+        "y": 540,
+        "wires": [
+            [
+                "05345b44e301af31"
+            ]
+        ],
+        "inputLabels": [
+            "deepnet"
+        ]
+    },
+    {
+        "id": "2ec43bd6f588e286",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "05345b44e301af31",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d1b1d590d14698ea",
+        "type": "dataset",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "objective_field": "",
+        "origin": "",
+        "refresh_field_types": false,
+        "tags": "",
+        "name": "dataset",
+        "reify": false,
+        "term_limit": 0,
+        "excluded_fields": "",
+        "shared_hash": "",
+        "fields": "",
+        "refresh_objective": false,
+        "json_filter": "",
+        "category": 0,
+        "size": 0,
+        "webhook": "",
+        "lisp_filter": "",
+        "description": "",
+        "input_fields": "",
+        "x": 1000,
+        "y": 300,
+        "wires": [
+            [
+                "b159230d95adffcc"
+            ]
+        ]
+    },
+    {
+        "id": "6b586a791cc3859a",
+        "type": "dataset",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "objective_field": "",
+        "origin": "",
+        "refresh_field_types": false,
+        "tags": "",
+        "name": "dataset",
+        "reify": false,
+        "term_limit": 0,
+        "excluded_fields": "",
+        "shared_hash": "",
+        "fields": "",
+        "refresh_objective": false,
+        "json_filter": "",
+        "category": 0,
+        "size": 0,
+        "webhook": "",
+        "lisp_filter": "",
+        "description": "",
+        "input_fields": "",
+        "x": 1200,
+        "y": 300,
+        "wires": [
+            [
+                "9aa3ac7c7c2f2502"
+            ]
+        ]
+    },
+    {
+        "id": "5e8301e36ecd32a0",
+        "type": "source",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "item_analysis": "",
+        "project": "project/664e6b973f34be300ed5a1b7",
+        "remote": "",
+        "name": "Source",
+        "reify": true,
+        "synthetic": "",
+        "source_parser": "",
+        "file": "C:\\Users\\DR2\\Desktop\\archive\\data.csv",
+        "disable_datetime": false,
+        "data": "",
+        "term_analysis": "",
+        "x": 1000,
+        "y": 200,
+        "wires": [
+            [
+                "d1b1d590d14698ea"
+            ]
+        ]
+    },
+    {
+        "id": "13b72bbad7589e6f",
+        "type": "source",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "item_analysis": "",
+        "project": "project/664e6b973f34be300ed5a1b7",
+        "remote": "",
+        "name": "Source",
+        "reify": true,
+        "synthetic": "",
+        "source_parser": "",
+        "file": "C:\\Users\\DR2\\Desktop\\archive\\data.csv",
+        "disable_datetime": false,
+        "data": "",
+        "term_analysis": "",
+        "x": 1180,
+        "y": 180,
+        "wires": [
+            [
+                "6b586a791cc3859a"
+            ]
+        ]
+    },
+    {
+        "id": "495744dd0ae79d5c",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"BIGML_USERNAME\":\"DR2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 970,
+        "y": 120,
+        "wires": [
+            [
+                "5e8301e36ecd32a0"
+            ]
+        ]
+    },
+    {
+        "id": "a6fd79309dc061c3",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 1150,
+        "y": 100,
+        "wires": [
+            [
+                "13b72bbad7589e6f"
+            ]
+        ]
+    },
+    {
+        "id": "99985b29559bcf2f",
+        "type": "find",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Find resources",
+        "resource_type": "model",
+        "resource_name": "",
+        "tag": "",
+        "limit": 1,
+        "sort_field": "",
+        "order": "asc",
+        "reify": false,
+        "x": 240,
+        "y": 920,
+        "wires": [
+            [
+                "98397ea16d58b335"
+            ]
+        ],
+        "outputLabels": [
+            "model"
+        ]
+    },
+    {
+        "id": "395a849d7cad35ba",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{     \"input-data\": {         \"Outlook\": \"Overcast\",         \"Temp\": \"Cool\",         \"Humidity\": \"High\",         \"Windy\": \"f\"     },     \"BIGML_USERNAME\": \"dr2\",     \"BIGML_API_KEY\": \"1c660354c5ec8d12389d7337410259804f6a2a57\" }",
+        "payloadType": "json",
+        "x": 150,
+        "y": 840,
+        "wires": [
+            [
+                "99985b29559bcf2f"
+            ]
+        ]
+    },
+    {
+        "id": "98397ea16d58b335",
+        "type": "prediction",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "explain": false,
+        "vote_counts": "",
+        "private": false,
+        "tags": "",
+        "name": "prediction",
+        "reify": false,
+        "vote_count": 0.5,
+        "missing_strategy": 0,
+        "operating_kind": null,
+        "category": 0,
+        "webhook": "",
+        "operating_point": "",
+        "description": "",
+        "x": 440,
+        "y": 920,
+        "wires": [
+            [
+                "467e2142bb96f8b1"
+            ]
+        ]
+    },
+    {
+        "id": "467e2142bb96f8b1",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": true,
+        "x": 610,
+        "y": 920,
+        "wires": [
+            [
+                "f6dbd508803ebe4b",
+                "49405400a6d005a9"
+            ]
+        ],
+        "inputLabels": [
+            "prediction"
+        ]
+    },
+    {
+        "id": "f6dbd508803ebe4b",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "49405400a6d005a9",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "function 8",
+        "func": "var msgg = msg.payload.result.prediction[\"000004\"];\nvar a = parseFloat(msg.payload.result.probability) * 100;\nvar b = a.toFixed(3);\n\n// Créer un message pour la première valeur (prediction)\nvar msgPrediction = {\n    payload: msgg\n};\n\n// Créer un message pour la deuxième valeur (vote_count)\nvar msgVoteCount = {\n    payload: b\n};\n\n// Envoyer les deux messages séparément\nreturn [msgPrediction, msgVoteCount];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1000,
+        "wires": [
+            [
+                "d93ab90421bf18dc"
+            ],
+            [
+                "b95cc1494cfb469b",
+                "0ca6f0f3dc7942d4"
+            ]
+        ]
+    },
+    {
+        "id": "0ca6f0f3dc7942d4",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "b95cc1494cfb469b",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 9,
+        "width": 8,
+        "height": 8,
+        "gtype": "donut",
+        "title": "Prediction",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 720,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "d93ab90421bf18dc",
+        "type": "ui_text",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "group": "131c8d978dfdba8c",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Good Day To Play Tennis [Model]",
+        "format": "{{value}}",
+        "layout": "col-center",
+        "x": 780,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "6033babd621c9657",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "a397cb537b452e88",
+        "type": "ui_button",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 13,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "label": "Test DT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Overcast\",\"Temp\":\"High\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 840,
+        "wires": [
+            [
+                "99985b29559bcf2f",
+                "6033babd621c9657"
+            ]
+        ]
+    },
+    {
+        "id": "ed319f80971e0c59",
+        "type": "find",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Find resources",
+        "resource_type": "deepnet",
+        "resource_name": "",
+        "tag": "",
+        "limit": 1,
+        "sort_field": "",
+        "order": "asc",
+        "reify": true,
+        "x": 1120,
+        "y": 1320,
+        "wires": [
+            [
+                "fefda5913af85356"
+            ]
+        ],
+        "outputLabels": [
+            "model"
+        ]
+    },
+    {
+        "id": "60df1c2a54104b42",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Overcast\",\"Temp\":\"High\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 990,
+        "y": 1240,
+        "wires": [
+            [
+                "ed319f80971e0c59",
+                "75cfdd980876610c"
+            ]
+        ]
+    },
+    {
+        "id": "25c27f0f42abe557",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": true,
+        "x": 1510,
+        "y": 1320,
+        "wires": [
+            [
+                "4cdc77074db31ee3",
+                "dc17a049370a2938"
+            ]
+        ],
+        "inputLabels": [
+            "prediction"
+        ]
+    },
+    {
+        "id": "4cdc77074db31ee3",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1740,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "dc17a049370a2938",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "function 9",
+        "func": "var msgg = msg.payload.result.prediction[\"000004\"];\nvar a = parseFloat(msg.payload.result.probability) * 100;\nvar b = a.toFixed(3);\n\n// Créer un message pour la première valeur (prediction)\nvar msgPrediction = {\n    payload: msgg\n};\n\n// Créer un message pour la deuxième valeur (vote_count)\nvar msgVoteCount = {\n    payload: b\n};\n\n// Envoyer les deux messages séparément\nreturn [msgPrediction, msgVoteCount];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 1420,
+        "wires": [
+            [
+                "016c86face8054de"
+            ],
+            [
+                "fbc5c15c9adfc95b",
+                "17fdcc3d24808f21"
+            ]
+        ]
+    },
+    {
+        "id": "17fdcc3d24808f21",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "fbc5c15c9adfc95b",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 10,
+        "width": 7,
+        "height": 8,
+        "gtype": "donut",
+        "title": "Prediction",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1620,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "016c86face8054de",
+        "type": "ui_text",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "group": "131c8d978dfdba8c",
+        "order": 6,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Good Day To Play Tennis [Deepnet]",
+        "format": "{{value}}",
+        "layout": "col-center",
+        "x": 1640,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "75cfdd980876610c",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 32",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "c9638f6b58dd65f9",
+        "type": "ui_button",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 14,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Test DeepNet",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Rainny\",\"Temp\":\"Cool\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1300,
+        "y": 1240,
+        "wires": [
+            [
+                "ed319f80971e0c59"
+            ]
+        ]
+    },
+    {
+        "id": "e3f5d481240f1aa5",
+        "type": "comment",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Model Testing Decision Tree",
+        "info": "",
+        "x": 160,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "d9af14d1c1d27d02",
+        "type": "comment",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Model Testing Deepnet",
+        "info": "",
+        "x": 1000,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "b0c8cab5af6c7a70",
+        "type": "delay",
+        "z": "223ef46ec89a4758",
+        "g": "c92e7728f3b0d270",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "16",
+        "timeoutUnits": "seconds",
+        "rate": "15",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "2687806013324ade"
+            ]
+        ]
+    },
+    {
+        "id": "bdc7cf9d7def2261",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 38",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "b159230d95adffcc",
+        "type": "model",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "objective_field": "",
+        "range": 0,
+        "random_candidates": 0,
+        "origin": "",
+        "random_candidate_ratio": 0,
+        "replacement": false,
+        "tags": "",
+        "ordering": "0",
+        "optimize": true,
+        "name": "model",
+        "reify": false,
+        "seed": "",
+        "randomize": false,
+        "excluded_fields": "",
+        "deep": false,
+        "missing_splits": false,
+        "shared_hash": "",
+        "stat_pruning": true,
+        "fields": "",
+        "split_candidates": 32,
+        "depth_threshold": 512,
+        "category": 0,
+        "webhook": "",
+        "node_threshold": 512,
+        "model_candidates": "128",
+        "out_of_bag": false,
+        "description": "",
+        "sample_rate": 1,
+        "support_threshold": 0,
+        "input_fields": "",
+        "x": 1010,
+        "y": 420,
+        "wires": [
+            [
+                "10f3e237c9da4327"
+            ]
+        ]
+    },
+    {
+        "id": "9aa3ac7c7c2f2502",
+        "type": "deepnet",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "missing_numerics": true,
+        "optmiizer": "",
+        "objective_field": "",
+        "default_numeric_value": "none",
+        "range": 0,
+        "learning_rate": "1",
+        "hidden_layers": "",
+        "replacement": false,
+        "tags": "",
+        "ordering": 0,
+        "name": "deepnet",
+        "suggest_structure": false,
+        "reify": false,
+        "seed": "",
+        "learn_residuals": false,
+        "batch_normalization": true,
+        "excluded_fields": "",
+        "balance_objective": false,
+        "number_of_model_candidates": 128,
+        "deepnet_seed": "",
+        "fields": "",
+        "regression_weight_ratio": "",
+        "tree_embedding": false,
+        "number_of_hidden_layers": "0",
+        "category": 0,
+        "max_iterations": "",
+        "dropout_rate": "5",
+        "webhook": "",
+        "search": false,
+        "max_training_time": "18",
+        "objective_weights": "",
+        "out_of_bag": false,
+        "description": "",
+        "sample_rate": 1,
+        "input_fields": "",
+        "x": 1200,
+        "y": 420,
+        "wires": [
+            [
+                "09c1684808abb8a2"
+            ]
+        ]
+    },
+    {
+        "id": "fefda5913af85356",
+        "type": "prediction",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "explain": false,
+        "vote_counts": "",
+        "private": false,
+        "tags": "",
+        "name": "prediction",
+        "reify": false,
+        "vote_count": 0.5,
+        "missing_strategy": 0,
+        "operating_kind": null,
+        "category": 0,
+        "webhook": "",
+        "operating_point": "",
+        "description": "",
+        "x": 1340,
+        "y": 1320,
+        "wires": [
+            [
+                "25c27f0f42abe557"
+            ]
+        ]
+    },
+    {
+        "id": "25d85a6782b6bdb0",
+        "type": "prediction",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "explain": false,
+        "vote_counts": "",
+        "private": false,
+        "tags": "",
+        "name": "prediction",
+        "reify": true,
+        "vote_count": 0.5,
+        "missing_strategy": 0,
+        "operating_kind": null,
+        "category": 0,
+        "webhook": "",
+        "operating_point": "",
+        "description": "",
+        "x": 1320,
+        "y": 900,
+        "wires": [
+            [
+                "21b805244fd02cdf"
+            ]
+        ]
+    },
+    {
+        "id": "5088c9c60622b404",
+        "type": "change",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "msg",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1420,
+        "y": 820,
+        "wires": [
+            [
+                "93635920910f53cf"
+            ]
+        ]
+    },
+    {
+        "id": "3efc9cca477e3f4d",
+        "type": "dataset",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "objective_field": "",
+        "origin": "",
+        "refresh_field_types": false,
+        "tags": "",
+        "name": "dataset",
+        "reify": false,
+        "term_limit": 0,
+        "excluded_fields": "",
+        "shared_hash": "",
+        "fields": "",
+        "refresh_objective": false,
+        "json_filter": "",
+        "category": 0,
+        "size": 0,
+        "webhook": "",
+        "lisp_filter": "",
+        "description": "",
+        "input_fields": "",
+        "x": 780,
+        "y": 280,
+        "wires": [
+            [
+                "b517344536ba4998"
+            ]
+        ]
+    },
+    {
+        "id": "da3c17e66cc63d90",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": false,
+        "x": 1390,
+        "y": 540,
+        "wires": [
+            [
+                "f3034eb37c2d339d"
+            ]
+        ],
+        "inputLabels": [
+            "deepnet"
+        ]
+    },
+    {
+        "id": "f3034eb37c2d339d",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "debug 53",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "ccdb412445c39211",
+        "type": "dataset",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "objective_field": "",
+        "origin": "",
+        "refresh_field_types": false,
+        "tags": "",
+        "name": "dataset",
+        "reify": false,
+        "term_limit": 0,
+        "excluded_fields": "",
+        "shared_hash": "",
+        "fields": "",
+        "refresh_objective": false,
+        "json_filter": "",
+        "category": 0,
+        "size": 0,
+        "webhook": "",
+        "lisp_filter": "",
+        "description": "",
+        "input_fields": "",
+        "x": 1400,
+        "y": 280,
+        "wires": [
+            [
+                "8caa0d71bafad061"
+            ]
+        ]
+    },
+    {
+        "id": "1dc90a36e1be8eeb",
+        "type": "source",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "item_analysis": "",
+        "project": "project/664e6b973f34be300ed5a1b7",
+        "remote": "",
+        "name": "Source",
+        "reify": true,
+        "synthetic": "",
+        "source_parser": "",
+        "file": "C:\\Users\\DR2\\Desktop\\archive\\data.csv",
+        "disable_datetime": false,
+        "data": "",
+        "term_analysis": "",
+        "x": 1380,
+        "y": 180,
+        "wires": [
+            [
+                "ccdb412445c39211"
+            ]
+        ]
+    },
+    {
+        "id": "5d302acc0f44d2c0",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 1350,
+        "y": 100,
+        "wires": [
+            [
+                "1dc90a36e1be8eeb"
+            ]
+        ]
+    },
+    {
+        "id": "8caa0d71bafad061",
+        "type": "ensemble",
+        "z": "223ef46ec89a4758",
+        "g": "a79753d834ac830c",
+        "objective_field": "",
+        "weight_field": "",
+        "range": 0,
+        "random_candidates": 0,
+        "boosting": "",
+        "random_candidate_ratio": 0,
+        "replacement": false,
+        "tags": "",
+        "ordering": 0,
+        "optimize": false,
+        "name": "ensemble",
+        "reify": false,
+        "seed": "",
+        "randomize": false,
+        "excluded_fields": "",
+        "missing_splits": false,
+        "balance_objective": false,
+        "stat_pruning": true,
+        "fields": "",
+        "split_candidates": 32,
+        "depth_threshold": 512,
+        "category": 0,
+        "webhook": "",
+        "number_of_models": 10,
+        "node_threshold": 512,
+        "max_training_time": 1800,
+        "model_candidates": 128,
+        "objective_weights": "",
+        "out_of_bag": false,
+        "description": "",
+        "sample_rate": 1,
+        "support_threshold": 0,
+        "input_fields": "",
+        "x": 1400,
+        "y": 400,
+        "wires": [
+            [
+                "da3c17e66cc63d90"
+            ]
+        ]
+    },
+    {
+        "id": "802e3816bbb0a5b6",
+        "type": "find",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Find resources",
+        "resource_type": "ensemble",
+        "resource_name": "",
+        "tag": "",
+        "limit": 1,
+        "sort_field": "",
+        "order": "asc",
+        "reify": false,
+        "x": 220,
+        "y": 1340,
+        "wires": [
+            [
+                "010a46e39979bc27"
+            ]
+        ],
+        "outputLabels": [
+            "model"
+        ]
+    },
+    {
+        "id": "d098ab50b534177b",
+        "type": "inject",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Overcast\",\"Temp\":\"High\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 1260,
+        "wires": [
+            [
+                "802e3816bbb0a5b6"
+            ]
+        ]
+    },
+    {
+        "id": "0a87cc4075fecd8f",
+        "type": "reify",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Reify",
+        "input_keypath": "",
+        "output_keypath": "",
+        "reify": true,
+        "x": 630,
+        "y": 1340,
+        "wires": [
+            [
+                "e5706b0437f5349c",
+                "66a48bb8c5730554"
+            ]
+        ],
+        "inputLabels": [
+            "prediction"
+        ]
+    },
+    {
+        "id": "e5706b0437f5349c",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 54",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "66a48bb8c5730554",
+        "type": "function",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "function 20",
+        "func": "var msgg = msg.payload.result.prediction[\"000004\"];\nvar a = parseFloat(msg.payload.result.probability) * 100;\nvar b = a.toFixed(3);\n\n// Créer un message pour la première valeur (prediction)\nvar msgPrediction = {\n    payload: msgg\n};\n\n// Créer un message pour la deuxième valeur (vote_count)\nvar msgVoteCount = {\n    payload: b\n};\n\n// Envoyer les deux messages séparément\nreturn [msgPrediction, msgVoteCount];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1420,
+        "wires": [
+            [
+                "85a2d97055eb3dd2"
+            ],
+            [
+                "9756b0c74d8b3c41",
+                "d6575ad15c3b05a7"
+            ]
+        ]
+    },
+    {
+        "id": "d6575ad15c3b05a7",
+        "type": "debug",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "debug 55",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "9756b0c74d8b3c41",
+        "type": "ui_gauge",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 12,
+        "width": 7,
+        "height": 8,
+        "gtype": "donut",
+        "title": "Prediction",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 580,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "85a2d97055eb3dd2",
+        "type": "ui_text",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "group": "131c8d978dfdba8c",
+        "order": 8,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Good Day To Play Tennis [Ensemble]",
+        "format": "{{value}}",
+        "layout": "col-center",
+        "x": 670,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "a5fab0ab9af2a6a3",
+        "type": "ui_button",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "group": "131c8d978dfdba8c",
+        "order": 16,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Test Ensmble",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"input-data\":{\"Outlook\":\"Overcast\",\"Temp\":\"High\",\"Humidity\":\"High\",\"Windy\":\"t\"},\"BIGML_USERNAME\":\"dr2\",\"BIGML_API_KEY\":\"1c660354c5ec8d12389d7337410259804f6a2a57\"}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 360,
+        "y": 1220,
+        "wires": [
+            [
+                "094e79cc8158cd67"
+            ]
+        ]
+    },
+    {
+        "id": "3de1d454769c514f",
+        "type": "comment",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "Model Testing Ensemble",
+        "info": "",
+        "x": 130,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "010a46e39979bc27",
+        "type": "prediction",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "explain": false,
+        "vote_counts": "",
+        "private": false,
+        "tags": "",
+        "name": "prediction",
+        "reify": true,
+        "vote_count": 0.5,
+        "missing_strategy": 0,
+        "operating_kind": null,
+        "category": 0,
+        "webhook": "",
+        "operating_point": "",
+        "description": "",
+        "x": 420,
+        "y": 1340,
+        "wires": [
+            [
+                "0a87cc4075fecd8f"
+            ]
+        ]
+    },
+    {
+        "id": "094e79cc8158cd67",
+        "type": "change",
+        "z": "223ef46ec89a4758",
+        "g": "74eba2e6a2ab8653",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "msg",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 1280,
+        "wires": [
+            [
+                "802e3816bbb0a5b6"
+            ]
+        ]
+    },
+    {
+        "id": "2d59889686e0235d",
+        "type": "serial-port",
+        "name": "COM",
+        "serialport": "COM101",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "500"
+    },
+    {
+        "id": "131c8d978dfdba8c",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "95dd32cc5430f124",
+        "order": 1,
+        "disp": true,
+        "width": 30
+    },
+    {
+        "id": "95dd32cc5430f124",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    }
+]
